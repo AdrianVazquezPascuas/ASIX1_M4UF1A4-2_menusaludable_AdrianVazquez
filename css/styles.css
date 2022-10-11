@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Hubballi&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Raleway:ital,wght@1,300&display=swap');
+html {
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #121536;
+}
+
+
+.p {
+    text-align: center;
+    color: white;
+}
+
+.texto {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.tabla {
+    color: white;
+}
+
+#arrozblanco {
+    height: 30vh;
+    width: 50vh;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#polloplancha {
+    height: 30vh;
+    width: 50vh;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#crepes {
+    height: 30vh;
+    width: 50vh;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 60%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+.column-tablas {
+    width: 100%;
+    float: left;
+}
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+/* Otras clases */
+
+.centrado {
+    text-align: center;
+}
+
+img {
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 45%;
+    margin: 20px;
+    }
+
+.padding-m {
+    padding: 2.5%;
+}
+
+
+.zoom:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+
+.atras {
+    height: 5vh;
+    width: 5vh;
+    filter: invert(1);
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+h4 {
+    color: white;
+    margin: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    margin: 30px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    /* column-2 pasará de tener 50% a 100% */
+    .column-2 {
+        width: 100%;
+    }
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+    img {
+        height: 60vw;
+    }
+}
