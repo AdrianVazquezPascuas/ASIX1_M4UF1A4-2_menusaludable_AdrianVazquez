@@ -2,7 +2,8 @@
 html {
     font-size: 14px;
     font-family: 'Quicksand', sans-serif;
-    background-color: #121536;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 70%, rgba(0,151,255,1) 100%);
 }
 
 
